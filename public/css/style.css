@@ -1,0 +1,45 @@
+.number-employees {
+    font-size: 48px;
+}
+
+.normal {
+    font-weight: normal !important;
+}
+
+.shadow-test {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-header {
+    font-weight: 700 !important;
+    font-size: 22px !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00008B;
+    border-color: #00008B;
+}
+
+.btn-secondary {
+    color: #00008B;
+    background-color: #fff;
+    border-color: #00008B;
+}
+
+.custom-border {
+    border-radius: 13px !important;
+}
+
+.custom-margin-add {
+    width: 8%;
+}
+
+.vh-80 {
+    height: 80vh !important;
+}
+
+.color-custom {
+    background-color: #1c294e !important;
+}
