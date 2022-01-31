@@ -17,6 +17,16 @@ Route::get('/', function () {
     return redirect('/admin');
 });
 
-Route::get('/admin',function(){
+Route::get('/admin', function () {
     return view('pages.admin.dashboard');
+});
+
+Route::get('/admin/karyawan', function () {
+    return view('pages.admin.karyawan.index');
+})->name('karyawan');
+Route::get('/admin/karyawan/tambah', function(){
+    return view('pages.admin.karyawan.create');
+})->name('tambah_karyawan');
+Route::get('/admin/karyawan/edit', function(){
+    
 });
