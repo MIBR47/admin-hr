@@ -19,7 +19,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item ">
-        <a class="nav-link">
+        <a class="nav-link" href="{{ route('dashboard') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -34,13 +34,13 @@
 
     <!-- Nav Item - Offices -->
     <li class="nav-item  ">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('branch_office') }}">
             <i class="fas fa-briefcase"></i>
             <span>Branch Office</span></a>
     </li>
 
     <li class="nav-item  ">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('visiting_place') }}">
             <i class="fas fa-briefcase"></i>
             <span>Visiting place</span></a>
     </li>
@@ -64,13 +64,13 @@
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
     <li class="nav-item ">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('visiting_history') }}">
             <i class="fas fa-store"></i>
             <span>Riwayat Kunjungan</span></a>
     </li>
 
     <li class="nav-item ">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('attendance_history') }}">
             <i class="fas fa-calendar-alt"></i>
             <span>Riwayat kehadiran</span></a>
     </li>
