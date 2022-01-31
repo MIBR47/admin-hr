@@ -28,31 +28,31 @@
     <!-- Nav Item - Transaction -->
     <li class="nav-item ">
         <a class="nav-link" href="">
-            <i class="fas fa-poll-h"></i>
-            <span>Transaction Histories</span></a>
+            <i class="fas fa-users"></i>
+            <span>Karyawan</span></a>
     </li>
 
     <!-- Nav Item - Offices -->
     <li class="nav-item  ">
         <a class="nav-link" href="">
             <i class="fas fa-briefcase"></i>
-            <span>Regions</span></a>
+            <span>Kantor cabang</span></a>
     </li>
 
     <!-- Nav Item - Offices -->
     <li class="nav-item ">
         <a class="nav-link" href="">
-            <i class="fas fa-briefcase"></i>
-            <span>Offices</span></a>
+            <i class="fas fa-store"></i>
+            <span>Riwayat Kunjungan</span></a>
     </li>
 
     <li class="nav-item ">
         <a class="nav-link" href="">
-            <i class="fas fa-briefcase"></i>
-            <span>Types</span></a>
+            <i class="fas fa-calendar-alt"></i>
+            <span>Riwayat kehadiran</span></a>
     </li>
 
-    <!-- Nav Item - Items -->
+    {{-- <!-- Nav Item - Items -->
     <li class="nav-item ">
         <a class="nav-link" href="">
             <i class="fas fa-th-large"></i>
@@ -64,7 +64,7 @@
         <a class="nav-link" href="">
             <i class="fas fa-users"></i>
             <span>Employees</span></a>
-    </li>
+    </li> --}}
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
