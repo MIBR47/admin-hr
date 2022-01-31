@@ -50,7 +50,7 @@
         <!-- Nav Item - User Information -->
         @guest
             <li class="nav-item dropdown no-arrow">
-                <a class="nav-link dropdown-toggle" href="" id="userDropdown" role="button"
+                <a class="nav-link dropdown-toggle" href="{{ route('login') }}" id="userDropdown" role="button"
                     aria-haspopup="true">
                     <span class="mr-2 pr-1 d-none d-lg-inline text-gray-600 small">
                         <span class="font-weight-bold">

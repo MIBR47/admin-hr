@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('pages.dashboard');
 });
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
 
 
 Route::prefix('/admin/employees')->group(function () {
