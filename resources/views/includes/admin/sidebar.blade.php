@@ -27,30 +27,25 @@
 
     <!-- Nav Item - Transaction -->
     <li class="nav-item ">
-        <a class="nav-link" href="{{ route('karyawan') }}">
+        <a class="nav-link" href="{{ route('employees') }}">
             <i class="fas fa-users"></i>
-            <span>Karyawan</span></a>
+            <span>Employees</span></a>
     </li>
 
     <!-- Nav Item - Offices -->
     <li class="nav-item  ">
         <a class="nav-link" href="">
             <i class="fas fa-briefcase"></i>
-            <span>Kantor cabang</span></a>
+            <span>Branch Office</span></a>
     </li>
 
+    <li class="nav-item  ">
+        <a class="nav-link" href="">
+            <i class="fas fa-briefcase"></i>
+            <span>Visiting place</span></a>
+    </li>
     <!-- Nav Item - Offices -->
-    <li class="nav-item ">
-        <a class="nav-link" href="">
-            <i class="fas fa-store"></i>
-            <span>Riwayat Kunjungan</span></a>
-    </li>
-
-    <li class="nav-item ">
-        <a class="nav-link" href="">
-            <i class="fas fa-calendar-alt"></i>
-            <span>Riwayat kehadiran</span></a>
-    </li>
+    
 
     {{-- <!-- Nav Item - Items -->
     <li class="nav-item ">
@@ -68,11 +63,23 @@
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
+    <li class="nav-item ">
+        <a class="nav-link" href="">
+            <i class="fas fa-store"></i>
+            <span>Riwayat Kunjungan</span></a>
+    </li>
+
+    <li class="nav-item ">
+        <a class="nav-link" href="">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Riwayat kehadiran</span></a>
+    </li>
 
     <!-- Sidebar Toggler (Sidebar) -->
     <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
     </div>
+    
 
     {{-- <!-- Sidebar Message -->
     <div class="sidebar-card d-none d-lg-flex">
